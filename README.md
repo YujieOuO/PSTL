@@ -17,9 +17,8 @@ You can also download the file folder in BaiduYun link:
 
 The code: pstl
 ## Reference
-This repository holds the code for the following paper:
+This repository holds the code for the following paper:  
 [Self-supervised Action Representation Learning from Partial Spatio-Temporal Skeleton Sequences](https://arxiv.org/abs/2302.09018).
-
 If you find our paper and repo useful, please cite our paper. Thanks!
 ```
 @article{zhou2023self,
