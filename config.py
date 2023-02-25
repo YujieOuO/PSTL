@@ -7,9 +7,9 @@ ex = Experiment("PSTL", save_git_info=False)
 def my_config():
     ############################## setting ##############################
     version = "ntu60_xsub_j"
-    dataset = "ntu60"
+    dataset = "ntu60"   # ntu60 / ntu120 / pku
     split = "xsub"
-    view = "joint"
+    view = "joint"      # joint / motion / bone
     save_lp = False
     save_finetune = False
     save_semi = False
@@ -39,9 +39,6 @@ def my_config():
     # train_mode = 'pretrain'
     # train_mode = 'semi'
     log_path = './output/log/v'+version+'_'+train_mode+'.log'
-    ############################# 3s stream #############################
-    result_path = './result/'+dataset+'/'+split+'/'+view+'/'+version+'_'
-    label_path = './result/'+dataset+'/'+split+'/label/label.pkl'
     ################################ GPU ################################
     # gpus = "0"
     # os.environ['CUDA_VISIBLE_DEVICES'] = gpus
