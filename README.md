@@ -14,6 +14,16 @@ You can also download the file folder in BaiduYun link:
 * [NTU-RGB-D 60](https://pan.baidu.com/s/1ukBF5aI8QawRriJbmsrv5Q).
 * [NTU-RGB-D 120]().
 * [PKU-MMD](https://pan.baidu.com/s/168uXCgrKdh7esqatGwfEfg).
+## Training & Testing
+Example for unsupervised pre-training on NTU-60 xsub datasets.  
+You can change some settings of [config.py](https://github.com/YujieOuO/PSTL/blob/main/config.py).  
+```
+# pre-training
+$ python procedure.py with 'train_mode="pretrain"'
+
+# Linear_eval
+$ python procedure.py with 'train_mode="lp"'
+```
 
 The code: pstl
 ## Reference
@@ -28,6 +38,9 @@ If you find our paper and repo useful, please cite our paper. Thanks!
   year={2023}
 }
 ```
+
+## Contact
+For any questions, feel free to contact: yujiezhou@ruc.edu.cn
 
 ## Acknowledgement
 * The framework of our code is based on [MS2L](https://github.com/LanglandsLin/MS2L).
