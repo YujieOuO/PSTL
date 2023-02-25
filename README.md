@@ -13,17 +13,17 @@ from Partial Spatio-Temporal Skeleton Sequences" in AAAI2023 (Oral)**.
 ![torch = 1.11.0+cu113](https://img.shields.io/badge/torch-1.11.0%2Bcu113-yellowgreen)
 
 ## Installation
-<pre>
-<em># Install the python libraries</em>
+```bash
+# Install the python libraries
 $ cd PSTL
 $ pip install -r requirements.txt
-</pre>
+```
 
 ## Data Preparation
 We apply the same dataset processing as [AimCLR](https://github.com/Levigty/AimCLR).  
 You can also download the file folder in BaiduYun link:
 * [NTU-RGB-D 60](https://pan.baidu.com/s/1ukBF5aI8QawRriJbmsrv5Q).
-* [NTU-RGB-D 120]().
+* [NTU-RGB-D 120](https://pan.baidu.com/s/1AG_516WHitv1LBh1NNrvVg).
 * [PKU-MMD](https://pan.baidu.com/s/168uXCgrKdh7esqatGwfEfg).
 
 The code: pstl
@@ -31,13 +31,13 @@ The code: pstl
 Example for unsupervised pre-training on NTU-60 xsub datasets.  
 You can change some settings of [config.py](https://github.com/YujieOuO/PSTL/blob/main/config.py).  
 
-<pre>
-<em># pre-training</em>
+```bash
+# pre-training
 $ python procedure.py with 'train_mode="pretrain"'
 
-<em># linear evaluation</em>
+# linear evaluation
 $ python procedure.py with 'train_mode="lp"'
-</pre>
+```
 
 ## Reference
 This repository holds the code for the following paper:  
