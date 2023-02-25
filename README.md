@@ -2,6 +2,8 @@
 This is an official PyTorch implementation of **"Self-supervised Action Representation Learning 
 from Partial Spatio-Temporal Skeleton Sequences" in AAAI2023 (Oral)**.
 
+[[Paper]](https://arxiv.org/abs/2302.09018)
+
 ## SkeletonBT
 ![SkeletonBT](https://user-images.githubusercontent.com/47097735/221340750-09aed928-9100-4b49-b2f9-7cf78bbb79e5.png)
 
@@ -40,8 +42,6 @@ $ python procedure.py with 'train_mode="lp"'
 ```
 
 ## Reference
-This repository holds the code for the following paper:  
-[Self-supervised Action Representation Learning from Partial Spatio-Temporal Skeleton Sequences](https://arxiv.org/abs/2302.09018).  
 If you find our paper and repo useful, please cite our paper. Thanks!
 ```
 @article{zhou2023self,
