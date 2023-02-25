@@ -14,6 +14,20 @@ We apply the same dataset processing, backbone, and dimension of the linear prob
 Link: [AimCLR]https://github.com/Levigty/AimCLR
 You can also download the file folder in BaiduYun link:
 
+## Citation
+Please cite our paper if you find this repository helpful:
+`
+@article{zhou2023self,
+  title={Self-supervised Action Representation Learning from Partial Spatio-Temporal Skeleton Sequences},
+  author={Zhou, Yujie and Duan, Haodong and Rao, Anyi and Su, Bing and Wang, Jiaqi},
+  journal={arXiv preprint arXiv:2302.09018},
+  year={2023}
+}
+`
+
 ## Acknowledgement
 * The framework of our code is based on [MS2L](https://github.com/LanglandsLin/MS2L).
 * The encoder is based on [ST-GCN](https://github.com/yysijie/st-gcn/blob/master/OLD_README.md).
+
+## Licence
+This project is licensed under the terms of the MIT license.
