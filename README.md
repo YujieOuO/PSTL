@@ -16,8 +16,11 @@ You can also download the file folder in BaiduYun link:
 * [PKU-MMD](https://pan.baidu.com/s/168uXCgrKdh7esqatGwfEfg).
 
 The code: pstl
-## Citation
-Please cite our paper if you find this repository helpful:  
+## Reference
+This repository holds the code for the following paper:
+[Self-supervised Action Representation Learning from Partial Spatio-Temporal Skeleton Sequences](https://arxiv.org/abs/2302.09018).
+
+If you find our paper and repo useful, please cite our paper. Thanks!
 ```
 @article{zhou2023self,
   title={Self-supervised Action Representation Learning from Partial Spatio-Temporal Skeleton Sequences},
