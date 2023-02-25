@@ -6,7 +6,7 @@ from Partial Spatio-Temporal Skeleton Sequences" in AAAI2023**.
 ## PSTL
 ![PSTL](https://user-images.githubusercontent.com/47097735/221340707-2a90c224-1183-4166-9de9-ac0553543f69.png)
 ## Requirements
-![python = 3.7](https://img.shields.io/badge/python-3.7.13-green)  
+![python = 3.7](https://img.shields.io/badge/python-3.7.13-green)
 ![torch = 1.11.0+cu113](https://img.shields.io/badge/torch-1.11.0%2Bcu113-yellowgreen)
 ## Data Preparation
 We apply the same dataset processing as [AimCLR](https://github.com/Levigty/AimCLR).
