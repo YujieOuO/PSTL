@@ -15,5 +15,5 @@ Link: [AimCLR]https://github.com/Levigty/AimCLR
 You can also download the file folder in BaiduYun link:
 
 ## Acknowledgement
-* The framework of our code is based on ![MS2L]https://github.com/LanglandsLin/MS2L.
-* The encoder is based on ![ST-GCN]https://github.com/yysijie/st-gcn/blob/master/OLD_README.md.
+* The framework of our code is based on [MS2L](https://github.com/LanglandsLin/MS2L).
+* The encoder is based on [ST-GCN](https://github.com/yysijie/st-gcn/blob/master/OLD_README.md).
