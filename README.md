@@ -15,7 +15,7 @@ Link: [AimCLR]https://github.com/Levigty/AimCLR
 You can also download the file folder in BaiduYun link:
 
 ## Citation
-Please cite our paper if you find this repository helpful:
+Please cite our paper if you find this repository helpful:  
 `
 @article{zhou2023self,
   title={Self-supervised Action Representation Learning from Partial Spatio-Temporal Skeleton Sequences},
