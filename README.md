@@ -40,13 +40,12 @@ If you find our paper and repo useful, please cite our paper. Thanks!
   year={2023}
 }
 ```
-
-## Contact
-For any questions, feel free to contact: yujiezhou@ruc.edu.cn
-
 ## Acknowledgement
 * The framework of our code is based on [MS2L](https://github.com/LanglandsLin/MS2L).
 * The encoder is based on [ST-GCN](https://github.com/yysijie/st-gcn/blob/master/OLD_README.md).
 
 ## Licence
 This project is licensed under the terms of the MIT license.
+
+## Contact
+For any questions, feel free to contact: yujiezhou@ruc.edu.cn
