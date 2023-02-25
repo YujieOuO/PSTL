@@ -16,14 +16,14 @@ You can also download the file folder in BaiduYun link:
 
 ## Citation
 Please cite our paper if you find this repository helpful:  
-`
+```
 @article{zhou2023self,
   title={Self-supervised Action Representation Learning from Partial Spatio-Temporal Skeleton Sequences},
   author={Zhou, Yujie and Duan, Haodong and Rao, Anyi and Su, Bing and Wang, Jiaqi},
   journal={arXiv preprint arXiv:2302.09018},
   year={2023}
 }
-`
+```
 
 ## Acknowledgement
 * The framework of our code is based on [MS2L](https://github.com/LanglandsLin/MS2L).
