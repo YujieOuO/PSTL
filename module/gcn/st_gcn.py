@@ -55,7 +55,7 @@ class Model(nn.Module):
         x = x.permute(0, 1, 3, 4, 2).contiguous()
         x = x.view(N * M, C, T, V)
 
-        #Gets the sequence of nodes that are not masked out
+        # Gets the sequence of nodes that are not masked out
         all_joint = set(range(V))
         remain_joint = list(all_joint - set(ignore_joint))
         remain_joint = sorted(remain_joint)
