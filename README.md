@@ -9,12 +9,11 @@ from Partial Spatio-Temporal Skeleton Sequences" in AAAI2023**.
 ![python = 3.7](https://img.shields.io/badge/python-3.7.13-green)
 ![torch = 1.11.0+cu113](https://img.shields.io/badge/torch-1.11.0%2Bcu113-yellowgreen)
 ## Data Preparation
-We apply the same dataset processing as [AimCLR](https://github.com/Levigty/AimCLR).
+We apply the same dataset processing as [AimCLR](https://github.com/Levigty/AimCLR).  
 You can also download the file folder in BaiduYun link:
 * [NTU-RGB-D 60](https://pan.baidu.com/s/1ukBF5aI8QawRriJbmsrv5Q).
 * [NTU-RGB-D 120]().
 * [PKU-MMD](https://pan.baidu.com/s/168uXCgrKdh7esqatGwfEfg).
-
 The code: pstl
 ## Citation
 Please cite our paper if you find this repository helpful:  
