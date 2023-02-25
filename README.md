@@ -13,7 +13,7 @@ We apply the same dataset processing as [AimCLR](https://github.com/Levigty/AimC
 You can also download the file folder in BaiduYun link:
 * [NTU-RGB-D 60](https://pan.baidu.com/s/1ukBF5aI8QawRriJbmsrv5Q).
 * [NTU-RGB-D 120]().
-* [PKU-MMD](https://pan.baidu.com/s/168uXCgrKdh7esqatGwfEfg).
+* [PKU-MMD](https://pan.baidu.com/s/168uXCgrKdh7esqatGwfEfg).  
 The code: pstl
 ## Citation
 Please cite our paper if you find this repository helpful:  
