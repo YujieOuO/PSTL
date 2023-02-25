@@ -19,13 +19,13 @@ The code: pstl
 ## Training & Testing
 Example for unsupervised pre-training on NTU-60 xsub datasets.  
 You can change some settings of [config.py](https://github.com/YujieOuO/PSTL/blob/main/config.py).  
-```
-## pre-training
+
+<pre>
 $ python procedure.py with 'train_mode="pretrain"'
 
-# Linear_eval
 $ python procedure.py with 'train_mode="lp"'
-```
+</pre>
+
 ## Reference
 This repository holds the code for the following paper:  
 [Self-supervised Action Representation Learning from Partial Spatio-Temporal Skeleton Sequences](https://arxiv.org/abs/2302.09018).  
