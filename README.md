@@ -21,10 +21,10 @@ Example for unsupervised pre-training on NTU-60 xsub datasets.
 You can change some settings of [config.py](https://github.com/YujieOuO/PSTL/blob/main/config.py).  
 
 <pre>
-<font color=red># pre-training</font>
+<em># pre-training</em>
 $ python procedure.py with 'train_mode="pretrain"'
 
-<font color=red># linear evaluation</font>
+<em># linear evaluation</em>
 $ python procedure.py with 'train_mode="lp"'
 </pre>
 
