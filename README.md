@@ -20,7 +20,7 @@ The code: pstl
 Example for unsupervised pre-training on NTU-60 xsub datasets.  
 You can change some settings of [config.py](https://github.com/YujieOuO/PSTL/blob/main/config.py).  
 ```
-# <font color=red>我是红色</font>pre-training
+## pre-training
 $ python procedure.py with 'train_mode="pretrain"'
 
 # Linear_eval
