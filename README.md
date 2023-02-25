@@ -14,6 +14,8 @@ You can also download the file folder in BaiduYun link:
 * [NTU-RGB-D 60](https://pan.baidu.com/s/1ukBF5aI8QawRriJbmsrv5Q).
 * [NTU-RGB-D 120]().
 * [PKU-MMD](https://pan.baidu.com/s/168uXCgrKdh7esqatGwfEfg).
+
+The code: pstl
 ## Training & Testing
 Example for unsupervised pre-training on NTU-60 xsub datasets.  
 You can change some settings of [config.py](https://github.com/YujieOuO/PSTL/blob/main/config.py).  
@@ -24,8 +26,6 @@ $ python procedure.py with 'train_mode="pretrain"'
 # Linear_eval
 $ python procedure.py with 'train_mode="lp"'
 ```
-
-The code: pstl
 ## Reference
 This repository holds the code for the following paper:  
 [Self-supervised Action Representation Learning from Partial Spatio-Temporal Skeleton Sequences](https://arxiv.org/abs/2302.09018).  
