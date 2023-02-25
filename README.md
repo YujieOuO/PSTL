@@ -14,7 +14,7 @@ from Partial Spatio-Temporal Skeleton Sequences" in AAAI2023**.
 
 ## Installation
 <pre>
-<em><font color=Blue># Install the python libraries</font></em>
+<em># Install the python libraries</em>
 $ cd PSTL
 $ pip install -r requirements.txt
 </pre>
