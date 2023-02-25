@@ -10,8 +10,8 @@ python = 3.7
 
 torch = 1.11.0+cu113
 ## Data Preparation
-We apply the same dataset processing, backbone, and dimension of the linear probe as AimCLR/CrosSCLR.
-Link: [AimCLR]https://github.com/Levigty/AimCLR
+We apply the same dataset processing as AimCLR & CrosSCLR.
+Link: [AimCLR](https://github.com/Levigty/AimCLR).
 You can also download the file folder in BaiduYun link:
 
 ## Citation
