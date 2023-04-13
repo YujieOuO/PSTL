@@ -1,3 +1,4 @@
 sacred
 tqdm
-eniops
+einops
+torch==1.11.0
