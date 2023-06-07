@@ -24,6 +24,25 @@ def init_weights(m):
         m.weight.data.normal_(1.0, 0.02)
         m.bias.data.fill_(0)
 
+class Linear(nn.Module):
+    @ex.capture
+    def __init__(self, hidden_size, dataset): 
+        super(Linear, self).__init__()
+        if "ntu60" in dataset:
+            label_num = 60
+        elif "ntu120" in dataset:
+            label_num = 120
+        elif "pku" in dataset:
+            label_num = 51
+        else:
+            raise ValueError
+        self.classifier = nn.Linear(hidden_size, label_num)
+        self.apply(init_weights)
+
+    def forward(self, X):
+        X = self.classifier(X)
+        return X
+
 class BTwins(nn.Module):
 
     @ex.capture
