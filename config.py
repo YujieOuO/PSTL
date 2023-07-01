@@ -39,6 +39,8 @@ def my_config():
     # train_mode = 'pretrain'
     # train_mode = 'semi'
     log_path = './output/log/v'+version+'_'+train_mode+'.log'
+    result_path = './result/'+dataset+'/'+split+'/'+view+'/'+version+'_'
+    label_path = './result/'+dataset+'/'+split+'/label/label.pkl'
     ################################ GPU ################################
     # gpus = "0"
     # os.environ['CUDA_VISIBLE_DEVICES'] = gpus
