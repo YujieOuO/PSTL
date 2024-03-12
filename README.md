@@ -44,10 +44,13 @@ $ python procedure.py with 'train_mode="lp"'
 ## Reference
 If you find our paper and repo useful, please cite our paper. Thanks!
 ```
-@article{zhou2023self,
-  title={Self-supervised Action Representation Learning from Partial Spatio-Temporal Skeleton Sequences},
+@inproceedings{zhou2023self,
+  title={Self-supervised action representation learning from partial spatio-temporal skeleton sequences},
   author={Zhou, Yujie and Duan, Haodong and Rao, Anyi and Su, Bing and Wang, Jiaqi},
-  journal={arXiv preprint arXiv:2302.09018},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={37},
+  number={3},
+  pages={3825--3833},
   year={2023}
 }
 ```
