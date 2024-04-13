@@ -62,4 +62,4 @@ If you find our paper and repo useful, please cite our paper. Thanks!
 This project is licensed under the terms of the MIT license.
 
 ## Contact
-For any questions, feel free to contact: yujiezhou@ruc.edu.cn
+For any questions, feel free to contact: yujieouo@sjtu.edu.cn
