@@ -33,7 +33,7 @@ def my_config():
     }
     edge_importance_weighting = True
     ############################ down stream ############################
-    weight_path = './output/multi_model/xsub/v'+version+'_epoch_150_pretrain.pt'
+    weight_path = './output/weight/v'+version+'_epoch_150_pretrain.pt' ## your weight save path
     train_mode = 'lp'
     # train_mode = 'finetune'
     # train_mode = 'pretrain'
