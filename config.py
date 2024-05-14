@@ -50,10 +50,10 @@ def my_config():
     person_num = 2
     joint_num = 25
     max_frame = 50
-    train_list = '/mnt/petrelfs/zhouyujie/data/'+dataset+'_frame50/'+split+'/train_data_joint.npy'
-    test_list = '/mnt/petrelfs/zhouyujie/data/'+dataset+'_frame50/'+split+'/val_data_joint.npy'
-    train_label = '/mnt/petrelfs/zhouyujie/data/'+dataset+'_frame50/'+split+'/train_label.pkl'
-    test_label = '/mnt/petrelfs/zhouyujie/data/'+dataset+'_frame50/'+split+'/val_label.pkl'
+    train_list = 'data/train_position.npy'  ## your data path 
+    test_list = 'data/val_position.npy'
+    train_label = 'data/train_label.pkl'
+    test_label = 'data/val_label.pkl'
     ########################### Data Augmentation #########################
     temperal_padding_ratio = 6
     shear_amp = 1
