@@ -454,7 +454,7 @@ class BTProcessor(BaseProcessor):
             self.optimizer.step()
     @ex.capture
     def save_model(self, epoch,version):
-        torch.save(self.encoder.state_dict(), f"output/weight/v_"+version+"_epoch_"+str(epoch+1)+"_pretrain.pt")
+        torch.save(self.encoder.state_dict(), f"output/weight/v"+version+"_epoch_"+str(epoch+1)+"_pretrain.pt")
         
     @ex.capture
     def optimize(self, pretrain_epoch):
